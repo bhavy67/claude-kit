@@ -1,0 +1,7 @@
+{
+  "name": "mobile-app",
+  "version": "0.1.0",
+  "description": "Shipping a web app as an Android/iOS app with Capacitor: storage, files, notifications, R8, builds without Android Studio.",
+  "author": { "name": "Bhavy Ladani" },
+  "license": "MIT"
+}

@@ -8,10 +8,11 @@ Reusable Claude Code setup: a plugin marketplace plus global rules. Install once
 |---|---|
 | `core` | Git guard hook: blocks Claude attribution lines in commits/PRs, force-push, `reset --hard`, `branch -D`, `stash drop`; asks before any `git push` |
 | `engineering-workflow` | grilling, grill-with-docs, tdd, code-review, codebase-design, domain-modeling (ADRs), improve-codebase-architecture, implement, phased-delivery |
-| `frontend-ui` | web-app-playbook (20-section rulebook router), ui-design-system, shadcn |
-| `backend-api` | api-design, database-design |
+| `frontend-ui` | web-app-playbook (20-section rulebook router), ui-design-system, frontend-gotchas, shadcn, animejs |
+| `backend-api` | api-design, database-design, supabase |
+| `mobile-app` | capacitor-android (storage, files, notifications, R8, release builds) |
 | `system-design` | system-design method, estimation and trade-off references |
-| `token-efficiency` | lean-context skill, `/audit-context` |
+| `token-efficiency` | lean-context skill, `/audit-context`, `/init-claude` (lean CLAUDE.md from `templates/CLAUDE.md`) |
 
 ## Install
 
@@ -35,7 +36,7 @@ Install only what a project needs. Enable per project so cloud sessions get them
 }
 ```
 
-Suggested sets: web app → core, engineering-workflow, frontend-ui, token-efficiency. API → core, engineering-workflow, backend-api, system-design.
+Suggested sets: web app → core, engineering-workflow, frontend-ui, token-efficiency. API → core, engineering-workflow, backend-api, system-design. Native app → add mobile-app.
 
 ## Global rules (once per machine)
 
@@ -45,6 +46,8 @@ Suggested sets: web app → core, engineering-workflow, frontend-ui, token-effic
 ```
 
 Merges into `~/.claude`: blank commit/PR attribution, a deny list for destructive git and secret files, and a short `CLAUDE.md` block between `claude-kit` markers. Idempotent, makes timestamped backups, needs `jq`.
+
+Optional: `global/settings.strict.json` also denies `git tag/rebase/reset/merge`. Copy its `deny` entries into a project's `.claude/settings.json` for repos where you want every history-shaping command to be yours.
 
 ## Token cost
 

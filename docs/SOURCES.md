@@ -4,5 +4,7 @@
 - mattpocock/skills: workflow skills (MIT).
 - shadcn/ui skill (MIT).
 - anthropics/skills `frontend-design` (Apache-2.0), recommended not vendored.
-- bowtiedswan/animejs-skills, recommended not vendored (license unverified).
+- bowtiedswan/animejs-skills: vendored (MIT per its README).
+- lockrr CLAUDE.md (29 KB): gotchas generalized into `frontend-gotchas`, `supabase`, `capacitor-android`. Project status/phase history intentionally not copied.
+- afterthoughts AGENTS.md (Next.js docs-first note) folded into `frontend-gotchas`. unfold-within settings were one-off command allowances, skipped.
 - Original: core git-guard, phased-delivery, token-efficiency, system-design, backend-api, ui-design-system.

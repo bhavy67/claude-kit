@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "deny": [
+      "Bash(git tag:*)",
+      "Bash(git rebase:*)",
+      "Bash(git reset:*)",
+      "Bash(git merge:*)"
+    ]
+  }
+}

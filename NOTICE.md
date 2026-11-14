@@ -11,8 +11,10 @@ Upstream: https://github.com/mattpocock/skills (MIT License, copyright Matt Poco
 Source of: `plugins/frontend-ui/skills/shadcn/`. Copied from a project of this repo's author, with assets, evals and agent files removed.
 Upstream: https://github.com/shadcn-ui/ui (MIT License). TODO before publishing: confirm the copyright holder line against the upstream LICENSE file and add the full text here.
 
+## Anime.js skill (MIT per its README)
+Source of: `plugins/frontend-ui/skills/animejs/SKILL.md`, copied unmodified from a project of this repo's author. Upstream: https://github.com/BowTiedSwan/animejs-skills. The copy's README states MIT but ships no LICENSE file. TODO: confirm the copyright holder against the upstream repo.
+
 ## Not vendored (install from upstream)
 - Anthropic `frontend-design` and other skills: `/plugin marketplace add anthropics/skills` (Apache-2.0).
-- Anime.js skills: `npx skills add bowtiedswan/animejs-skills` (license not verified, so not copied).
 
 Everything else in this repository is original work under the MIT License in `LICENSE`.
