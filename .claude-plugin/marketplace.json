@@ -1,0 +1,13 @@
+{
+  "name": "claude-kit",
+  "owner": { "name": "Bhavy Ladani" },
+  "metadata": { "description": "Reusable Claude Code plugins: git guardrails, engineering workflow, frontend UI, backend API, system design, token efficiency." },
+  "plugins": [
+    { "name": "core", "source": "./plugins/core", "description": "Git guard hook: blocks Claude attribution in commits/PRs, force-push and other destructive git commands; asks before any push." },
+    { "name": "engineering-workflow", "source": "./plugins/engineering-workflow", "description": "Grill, TDD, code review, deep-module design, domain modeling and ADRs, phased delivery." },
+    { "name": "frontend-ui", "source": "./plugins/frontend-ui", "description": "Web app playbook, design system and accessibility, shadcn/ui." },
+    { "name": "backend-api", "source": "./plugins/backend-api", "description": "REST API and database design conventions." },
+    { "name": "system-design", "source": "./plugins/system-design", "description": "Requirements-first system design with estimation and trade-off references." },
+    { "name": "token-efficiency", "source": "./plugins/token-efficiency", "description": "Lean-context guidance and /audit-context." }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "name": "engineering-workflow",
+  "version": "0.1.0",
+  "description": "Engineering workflow skills: grill a plan, TDD, code review, deep-module design, domain modeling and ADRs, architecture improvement, and phase-by-phase delivery with short STOP reports.",
+  "author": { "name": "Bhavy Ladani" },
+  "license": "MIT"
+}

@@ -1,0 +1,7 @@
+{
+  "name": "system-design",
+  "version": "0.1.0",
+  "description": "Requirements-first system design: a method that produces a decision log with trade-offs, plus estimation numbers and a trade-off cheat sheet.",
+  "author": { "name": "Bhavy Ladani" },
+  "license": "MIT"
+}

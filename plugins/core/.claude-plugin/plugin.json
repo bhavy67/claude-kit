@@ -1,0 +1,7 @@
+{
+  "name": "core",
+  "version": "0.1.0",
+  "description": "Safety hooks for every project: blocks destructive git commands, asks before pushes, and refuses Claude attribution in commits and PRs.",
+  "author": { "name": "Bhavy Ladani" },
+  "license": "MIT"
+}

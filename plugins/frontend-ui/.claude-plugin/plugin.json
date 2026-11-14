@@ -1,0 +1,7 @@
+{
+  "name": "frontend-ui",
+  "version": "0.1.0",
+  "description": "Frontend and UI: a router over a 20-section web app rulebook (PWA, mobile UX, performance, security, Android TWA), a design-system skill with accessibility checklist and token rules, and the shadcn/ui skill.",
+  "author": { "name": "Bhavy Ladani" },
+  "license": "MIT"
+}

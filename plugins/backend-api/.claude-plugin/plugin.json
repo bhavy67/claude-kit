@@ -1,0 +1,7 @@
+{
+  "name": "backend-api",
+  "version": "0.1.0",
+  "description": "Backend conventions for REST APIs (Node/Express, FastAPI) and databases (PostgreSQL, MongoDB): design rules, error format, auth, indexing, migrations.",
+  "author": { "name": "Bhavy Ladani" },
+  "license": "MIT"
+}

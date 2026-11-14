@@ -1,0 +1,7 @@
+{
+  "name": "token-efficiency",
+  "version": "0.1.0",
+  "description": "Keep Claude Code context lean: a skill for writing CLAUDE.md, skills and MCP config economically, plus /audit-context to measure what a project loads every turn.",
+  "author": { "name": "Bhavy Ladani" },
+  "license": "MIT"
+}
